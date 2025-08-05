@@ -1,0 +1,47 @@
+Política de Privacidad de [Nombre de tu Aplicación]
+
+En [Nombre de tu Aplicación], nos comprometemos a proteger la privacidad y la seguridad de nuestros usuarios. Esta política de privacidad explica cómo recopilamos, usamos y protegemos tus datos personales cuando usas nuestra aplicación de transporte.
+
+1. Información que recopilamos
+
+Al registrarte y usar nuestra aplicación, podemos recopilar la siguiente información:
+
+Datos de registro: nombre, correo electrónico, número de teléfono y otros datos necesarios para crear tu cuenta.
+Datos de uso: información sobre tus viajes, preferencias y actividades dentro de la aplicación.
+Datos de pago: en colaboración con MercadoPago, gestionamos los pagos de membresías y servicios, pero toda la gestión de pagos es realizada por la plataforma de MercadoPago, y no almacenamos ni gestionamos tus datos de pago directamente.
+Datos visibles en las ofertas: el número de teléfono y otros datos personales que puedas compartir para facilitar la comunicación con otros usuarios, necesarios para coordinar viajes y servicios.
+
+2. Cómo utilizamos tu información
+
+La información recopilada se utiliza únicamente para los siguientes fines:
+
+Brindar y gestionar los servicios de transporte ofrecidos en la aplicación.
+Facilitar la comunicación entre usuarios (por ejemplo, contacto por teléfono para coordinar viajes).
+Administrar tu cuenta y ofrecer soporte técnico y atención al cliente.
+Gestionar pagos y membresías a través de MercadoPago, en cuyo proceso participa la plataforma de MercadoPago y no tenemos acceso ni control sobre tus datos de pago.
+
+3. Uso de tus datos personales
+
+Queremos aclarar que no utilizamos tus datos personales con fines lucrativos o comerciales que no estén relacionados con el funcionamiento y la mejora de la aplicación. No vendemos, alquilamos ni compartimos tus datos personales con terceros con fines comerciales, salvo en los casos en que sea necesario para la prestación del servicio (como MercadoPago para pagos).
+
+4. Seguridad de tus datos
+
+Implementamos medidas de seguridad razonables para proteger tus datos personales contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ninguna transmisión de datos por internet o método de almacenamiento digital puede garantizar una seguridad absoluta.
+
+5. Compartir tus datos
+
+Solo compartimos tus datos en los siguientes casos:
+
+Con MercadoPago, para la gestión de pagos y membresías.
+Cuando sea requerido por ley o por autoridad competente.
+
+6. Derechos del usuario
+
+Tienes derecho a acceder, corregir o eliminar tus datos personales, así como a limitar u oponerte a su uso. Para ejercer estos derechos, puedes contactarnos a [correo electrónico de contacto].
+
+7. Cambios en esta política
+
+Nos reservamos el derecho a modificar esta política de privacidad en cualquier momento. Cualquier cambio será publicado en esta misma sección y entrará en vigor inmediatamente después de su publicación.
+
+Contacto:
+Para consultas o solicitudes relacionadas con tu privacidad, puedes contactarnos en: [correo electrónico].

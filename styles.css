@@ -112,7 +112,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('splash-icon (1).png') center/cover no-repeat;
+    background: url('img/splash-icon (1).png') center/cover no-repeat;
     opacity: 0.1;
     z-index: 1;
 }
