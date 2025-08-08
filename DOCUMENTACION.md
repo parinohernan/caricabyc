@@ -13,6 +13,8 @@ caricalegales/
 ├── privacidad.html     # Página de política de privacidad
 ├── styles.css          # Estilos CSS
 ├── script.js           # Funcionalidad JavaScript
+├── pdf-generator.js    # Generación de PDFs (versión original)
+├── pdf-generator-improved.js # Generación de PDFs mejorada
 ├── README.md           # Información básica del proyecto
 ├── DOCUMENTACION.md    # Esta documentación
 └── .gitignore          # Archivos a ignorar en Git
@@ -45,6 +47,7 @@ caricalegales/
 - Validación de formularios
 - Notificaciones del sistema
 - Scroll suave entre secciones
+- Generación automática de PDFs para documentos legales
 
 ### 5. Páginas Independientes
 - `terminos.html`: Términos y condiciones detallados
@@ -199,6 +202,27 @@ Este proyecto está bajo la licencia MIT. Ver el archivo LICENSE para más detal
 
 ## Changelog
 
+### v1.1.6 (2024)
+- Integración del logo real de CARICA en PDFs
+- Logo desde Cloudinary en encabezados de documentos
+- Fallback automático si no se puede cargar el logo
+- Actualización de fecha de vigencia en política de privacidad
+
+### v1.1.5 (2024)
+- PDFs completamente rediseñados con formato profesional
+- Logo simulado integrado en encabezados de PDF
+- Diseño corporativo con colores de CARICA
+- Secciones con fondos y bordes destacados
+- Mejor legibilidad y espaciado en PDFs
+- Pie de página mejorado con información de descarga
+
+### v1.1.4 (2024)
+- Implementación de descarga de PDFs para documentos legales
+- Generación automática de PDFs con jsPDF
+- Sistema de versionado para términos y condiciones
+- Botones de descarga con diseño profesional
+- PDFs con encabezados, pie de página y formato corporativo
+
 ### v1.1.3 (2024)
 - Actualización del logo a la versión sin texto
 - Uso de imagen desde Cloudinary para mejor rendimiento
@@ -229,3 +253,69 @@ Este proyecto está bajo la licencia MIT. Ver el archivo LICENSE para más detal
 - Páginas independientes de términos y privacidad
 - Diseño responsive completo
 - Funcionalidades JavaScript básicas 
+
+## 📋 **Análisis de las Políticas Actuales y Mejoras Necesarias**
+
+### ⚠️ **Fallas Identificadas en las Políticas:**
+
+1. **Limitación de Responsabilidad Insuficiente**: La sección actual es muy general y no cubre específicamente los riesgos de una plataforma de logística.
+
+2. **Falta Claridad sobre el Rol de CARICA**: No se especifica claramente que CARICA es solo un intermediario tecnológico.
+
+3. **No hay Recomendaciones de Seguridad**: Faltan directrices específicas para que los usuarios se protejan.
+
+4. **Ausencia de Exención Específica**: No hay exención explícita sobre estafas, delitos y accidentes.
+
+### ✅ **Mejoras Propuestas para la Sección 6:**
+
+```html
+<div class="legal-card">
+    <h3>6. Limitación de Responsabilidad y Exención de Garantías</h3>
+    <p><strong>CARICA actúa únicamente como intermediario tecnológico</strong> entre transportistas y empresas que requieren servicios de transporte. En ningún caso CARICA será responsable por:</p>
+    
+    <p><strong>6.1 Responsabilidades Excluidas:</strong></p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li><strong>Ofertas y Publicaciones:</strong> La veracidad, exactitud o disponibilidad real de las ofertas de carga publicadas en la plataforma</li>
+        <li><strong>Seguridad de Transportistas:</strong> La seguridad, confiabilidad, antecedentes penales o capacidad técnica de los transportistas registrados</li>
+        <li><strong>Daños Económicos:</strong> Pérdidas financieras, estafas, fraudes o cualquier tipo de daño económico sufrido por los usuarios</li>
+        <li><strong>Legalidad de Cargas:</strong> La legalidad, procedencia, documentación o naturaleza de las cargas transportadas</li>
+        <li><strong>Accidentes y Siniestros:</strong> Accidentes de tránsito, daños a mercancías, robos, hurtos o cualquier incidente durante el transporte</li>
+        <li><strong>Cumplimiento de Contratos:</strong> El cumplimiento de acuerdos comerciales entre usuarios de la plataforma</li>
+        <li><strong>Delitos:</strong> Cualquier actividad delictiva realizada por usuarios de la plataforma</li>
+    </ul>
+
+    <p><strong>6.2 Responsabilidad Limitada de CARICA:</strong></p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>El funcionamiento técnico de la plataforma</li>
+        <li>La seguridad de los datos almacenados</li>
+        <li>El soporte técnico proporcionado</li>
+        <li>La disponibilidad del servicio según nuestros SLA</li>
+    </ul>
+
+    <p><strong>6.3 Recomendaciones de Seguridad:</strong></p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+        <li><strong>Para Empresas Dadoras de Carga:</strong> Solicitar y verificar documentación legal, seguros, permisos de transporte y antecedentes de los transportistas antes de contratar servicios</li>
+        <li><strong>Para Transportistas:</strong> Verificar la legalidad de las cargas, solicitar documentación completa, y asegurarse de que las mercancías cumplan con todas las regulaciones aplicables</li>
+        <li><strong>Para Todos los Usuarios:</strong> Realizar verificaciones adicionales de identidad, referencias comerciales y solvencia económica según consideren necesario</li>
+    </ul>
+
+    <p><strong>IMPORTANTE:</strong> El usuario acepta que utiliza CARICA bajo su propio riesgo y responsabilidad, eximiendo completamente a CARICA de cualquier reclamo, demanda o acción legal derivada del uso de la plataforma.</p>
+</div>
+```
+
+### 🔍 **Otras Mejoras Recomendadas:**
+
+1. **Agregar Sección de Verificación de Usuarios** (Nueva sección 6.4):
+   - Proceso de verificación de identidad
+   - Documentación requerida
+   - Derecho a suspender cuentas sospechosas
+
+2. **Mejorar Sección de Uso Aceptable** (Sección 4):
+   - Prohibición explícita de cargas ilegales
+   - Prohibición de información falsa
+   - Consecuencias por incumplimiento
+
+3. **Agregar Cláusula de Indemnización**:
+   - Los usuarios deben indemnizar a CARICA por daños causados por su uso indebido
+
+¿Te gustaría que implemente estas mejoras? Necesitaría que me ayudes a editar el archivo `terminos.html` con estos cambios, ya que no tengo acceso directo a las herramientas de edición en este momento. 

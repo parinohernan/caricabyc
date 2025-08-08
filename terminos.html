@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- jsPDF para generación de PDFs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -54,6 +57,25 @@
     <section class="legal-section" style="margin-top: 100px;">
         <div class="container">
             <h1 class="section-title">Términos y Condiciones</h1>
+            
+            <!-- Sección de descarga PDF -->
+            <div class="pdf-download-section">
+                <div class="pdf-info">
+                    <h3><i class="fas fa-file-pdf"></i> Descarga de Documentos Legales</h3>
+                    <p>Descarga una copia en PDF de nuestros términos y condiciones para tu archivo personal.</p>
+                </div>
+                <div class="pdf-buttons">
+                    <button class="btn btn-pdf" onclick="generateTermsPDF()">
+                        <i class="fas fa-download"></i>
+                        Descargar PDF (Versión 1.2)
+                    </button>
+                    <div class="pdf-details">
+                        <span class="pdf-version">Versión 1.2</span>
+                        <span class="pdf-date">Vigente desde: Enero 2024</span>
+                    </div>
+                </div>
+            </div>
+            
             <div class="legal-content">
                 <div class="legal-card">
                     <h3>1. Aceptación de los Términos</h3>
@@ -202,5 +224,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="pdf-generator-improved.js"></script>
 </body>
 </html> 
