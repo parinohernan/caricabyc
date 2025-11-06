@@ -193,7 +193,7 @@ Para mejorar el rendimiento, considera:
 ## Contacto y Soporte
 
 Para preguntas o soporte técnico:
-- Email: info@carica.com
+- Email: contacto@carica.com.ar
 - Teléfono: +54 11 1234-5678
 
 ## Licencia
@@ -201,6 +201,34 @@ Para preguntas o soporte técnico:
 Este proyecto está bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
 ## Changelog
+
+### v2.0.0 (2025) - Rediseño enfocado en el usuario camionero
+- **Hero mejorado**: "No vuelvas vacío" - lenguaje directo para camioneros
+- **CTA con precio**: $15.000 ARS/mes con 30 días gratis
+- **Sección rediseñada**: "¿Cómo funciona?" reemplaza servicios genéricos
+- **Eliminada**: "Optimización de Rutas" (funcionalidad no existente)
+- **Footer profesional**: Crédito al desarrollador Juan Hernán Parino
+- **Navegación simplificada**: Foco en descarga y funcionalidad
+- **Beneficios claros**: Sin comisiones, contacto directo, cargas reales
+- **Galería de capturas**: 4 screenshots reales de la app con descripciones
+  - Mapa de cargas
+  - Lista de cargas disponibles
+  - Detalle completo de cada carga
+  - Configuración de filtros personalizados
+- **Efectos hover**: Animaciones suaves en las capturas
+- **Diseño responsive**: Optimizado para móvil y desktop
+- **Google Play Store**: Enlace directo a la app oficial en Play Store
+- **Eliminado**: Enlaces de descarga directa de APK desde Google Drive
+- **Homepage limpia**: Términos y Privacidad removidos de homepage
+  - Accesibles vía footer en páginas dedicadas
+  - Mantiene cumplimiento legal sin distraer
+  - Enlaces visibles pero no invasivos
+
+### v1.1.7 (2024)
+- Actualización de email de contacto a contacto@carica.com.ar
+- Emails actualizados en todas las páginas HTML
+- Emails actualizados en generadores de PDF
+- Consistencia de contacto en toda la documentación
 
 ### v1.1.6 (2024)
 - Integración del logo real de CARICA en PDFs

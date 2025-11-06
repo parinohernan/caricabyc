@@ -221,7 +221,7 @@ function generatePrivacyPDF() {
             },
             {
                 title: "6. Contacto",
-                content: "Si tiene preguntas sobre esta política de privacidad o nuestras prácticas de datos, puede contactarnos a través de:\n\n• Email: privacidad@carica.com\n• Teléfono: +54 11 1234-5678\n• Dirección: Buenos Aires, Argentina\n• Oficial de Protección de Datos: dpo@carica.com\n\nTambién puede ejercer sus derechos enviando un email a derechos@carica.com"
+                content: "Si tiene preguntas sobre esta política de privacidad o nuestras prácticas de datos, puede contactarnos a través de:\n\n• Email: contacto@carica.com.ar\n• Teléfono: +54 11 1234-5678\n• Dirección: Buenos Aires, Argentina\n• Oficial de Protección de Datos: contacto@carica.com.ar\n\nTambién puede ejercer sus derechos enviando un email a contacto@carica.com.ar"
             }
         ];
         

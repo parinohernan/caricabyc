@@ -570,6 +570,102 @@ body {
     color: #9ca3af;
 }
 
+.footer-bottom a {
+    color: var(--accent-yellow);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    opacity: 0.8;
+}
+
+.footer-section i {
+    margin-right: 0.5rem;
+    color: var(--accent-yellow);
+}
+
+/* Screenshots Section */
+.screenshots-section {
+    padding: 5rem 0;
+    background: var(--white);
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.screenshot-item {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.screenshot-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(244, 208, 63, 0.2);
+}
+
+.screenshot-image {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenshot-image img {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.screenshot-item:hover .screenshot-image img {
+    transform: scale(1.05);
+}
+
+.screenshot-caption {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.screenshot-caption h3 {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.screenshot-caption p {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    line-height: 1.5;
+}
+
+.btn-large {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
@@ -628,6 +724,15 @@ body {
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
+    }
+
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .screenshot-image img {
+        max-width: 220px;
     }
 
     .download-features {
